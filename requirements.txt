@@ -1,0 +1,9 @@
+streamlit
+langchain
+langchain_groq
+dotenv
+utils
+langchain.text_splitter
+PyPDF2
+bs4
+requests
