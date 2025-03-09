@@ -9,7 +9,7 @@ from utils import extract_text, chunk_text
 load_dotenv()
 
 # Initialize Groq model
-GROQ_API_KEY = "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"
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 groq_chat = ChatGroq(
         groq_api_key=GROQ_API_KEY,
         model_name="llama-3.3-70b-specdec",
